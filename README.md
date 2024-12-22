@@ -2,7 +2,7 @@
 
 CRUD React Firebase Application
 
-This project is a simple CRUD (Create, Read, Update, Delete) application built using React, Firebase, and several modern UI libraries. The app leverages Firebase for backend functionality and is styled with Material-UI (MUI) and Bootstrap.
+This project is a simple CRUD (Create, Read, Update, Delete) application built using React, Firebase, and several modern UI libraries. The app leverages Firebase for backend functionality and is styled with Bootstrap.
 
 Features:-
 
