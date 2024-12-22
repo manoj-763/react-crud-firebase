@@ -1,0 +1,84 @@
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+  padding: 0;
+}
+
+.note-card {
+  background: #fff9c4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s ease-in-out;
+}
+
+.note-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.note-content {
+  padding: 15px;
+}
+.note-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3e2723;
+  margin-bottom: 10px;
+}
+
+.note-text {
+  font-size: 0.9rem;
+  color: #5d4037;
+}
+
+.note-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #fff176;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s ease-in-out;
+}
+
+.btn-complete {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-complete:hover {
+  background-color: #388e3c;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #ffa000;
+}
+
+.btn-delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #d32f2f;
+}

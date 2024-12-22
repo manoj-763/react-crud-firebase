@@ -1,0 +1,49 @@
+.home-page{
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0cbed9;
+    font-weight: bold;
+    background-color: #0b0707;
+  }
+  
+  .pending-logout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logout-button p{
+    font-size: 18px;
+    color: #6e72e8;
+  }
+  
+  @media (max-width:600px) {
+    .pending-logout {
+      display: block;
+      text-align: center;
+    }
+    .logout-button{
+      text-align: center;
+      margin-bottom: 5%;
+    }
+    .logout-button p{
+      font-size: 18px;
+    }
+  }
+  
+  .task-status p {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(230, 37, 37);
+  }
