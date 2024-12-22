@@ -39,7 +39,7 @@ Installation
 
 Clone the repository:
 
-git clone https://github.com/your-username/crud-react-firebase.git
+git clone https://github.com/manoj-763/crud-react-firebase.git
 
 Navigate to the project directory:
 
@@ -55,18 +55,5 @@ Start the development server:
 npm run dev
 
 Project Structure
-
-crud-react-firebase/
-├── public/                # Static files
-├── src/
-│   ├── assets          
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # Application pages (Home, Login, Sign Up.)
-│   ├── styles/            # Custom CSS and styling
-│   └── main.jsx           # App entry point
-├── .env                   # Environment variables
-├── package.json           # Project dependencies and scripts
-├── vite.config.js         # Vite configuration
-└── README.md              # Project documentation
 
 
