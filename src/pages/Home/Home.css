@@ -75,8 +75,6 @@ h2 {
   max-width: 25%;
 }
 
-
-/* Container styling */
 .notes-container {
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +84,6 @@ h2 {
   padding: 0;
 }
 
-/* Card styling */
 .note-card {
   background: #fff9c4; 
   border-radius: 8px;
