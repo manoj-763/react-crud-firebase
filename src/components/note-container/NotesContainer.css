@@ -1,3 +1,82 @@
+.home-page{
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0cbed9;
+  font-weight: bold;
+  background-color: #0b0707;
+}
+
+.pending-logout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-button p{
+  font-size: 18px;
+  color: #6e72e8;
+}
+
+@media (max-width:600px) {
+  .pending-logout {
+    display: block;
+    text-align: center;
+  }
+  .logout-button{
+    text-align: center;
+    margin-bottom: 5%;
+  }
+  .logout-button p{
+    font-size: 18px;
+  }
+}
+
+.task-status p {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(230, 37, 37);
+}
+
+.task-input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #b1b2a0;
+  max-height: 500px;
+  max-width: 25%;
+}
+
+
+/* Container styling */
 .notes-container {
   display: flex;
   flex-wrap: wrap;
@@ -8,7 +87,7 @@
 }
 
 .note-card {
-  background: #fff9c4;
+  background: #fff9c4; 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -24,11 +103,13 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
 .note-content {
   padding: 15px;
 }
+
 .note-title {
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #3e2723;
   margin-bottom: 10px;
@@ -37,6 +118,9 @@
 .note-text {
   font-size: 0.9rem;
   color: #5d4037;
+  overflow-wrap: break-word; 
+  max-height: unset;
+  overflow: visible;
 }
 
 .note-actions {
@@ -81,4 +165,50 @@
 
 .btn-delete:hover {
   background-color: #d32f2f;
+}
+
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-actions button:first-child {
+  background: #28a745;
+  color: white;
+}
+
+.task-actions button:first-child:hover {
+  background: #218838;
+}
+
+.task-actions button:nth-child(2) {
+  background: #ffc107;
+  color: white;
+}
+
+.task-actions button:nth-child(2):hover {
+  background: #e0a800;
+}
+
+.task-actions button:nth-child(3) {
+  background: #dc3545;
+  color: white;
+}
+
+.task-actions button:nth-child(3):hover {
+  background: #c82333;
+}
+
+.task-status {
+  text-align: center;
+  margin-top: 20px;
 }
